@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #00FF00;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #00FF00;
+    border-top: 1px solid #00FF00;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 1px solid #00FF00;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+pre {
+    background: #001900;
+    padding: 1rem;
+    overflow-x: auto;
+    border: 1px solid #00FF00;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
